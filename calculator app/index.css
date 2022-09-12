@@ -1,0 +1,41 @@
+body {
+    height: 200px;
+    margin:100px 100px; 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0; 
+    text-align: center;
+    background: linear-gradient(#e76f51,#e9c46a);
+    color:black;
+}
+
+span {
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    padding: 4px;
+    background: linear-gradient(#2a9d8f,#264653);
+     border:1px solid black;
+     border-radius: 10px;
+}
+
+button {
+    font-size: 25px;
+    margin: 20px 0;
+    background: linear-gradient(#2a9d8f,#264653);
+    color: black;
+   border:1px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 8px;
+}
+
+
+button:active{
+  background: linear-gradient(#e76f51,#e9c46a);
+  color:#a4133c;
+}
+
+#sum-el{
+    font-size: 25px;
+}
